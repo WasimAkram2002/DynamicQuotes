@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 20px solid rgb(38, 0, 128);
+}
+
+.box {
+    border: 2px solid rgb(17, 17, 17);
+    height: 50vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(136, 136, 221);
+}
+
+.qp {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    border: 2px solid red;
+    background-color: aliceblue;
+    height: 50vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#author {
+    align-self: flex-end;
+}
+
+.wrapper .box .para .iWrapper {
+    display: flex;
+    align-self: left;
+    margin-left: 20px;
+    width: 100%;
+}
